@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span class="logo__text">WAPIK</span>
+                    <i class="logo__icon icon-phone"></i>
+                    <span class="logo__phone">+62 202 555 0117</span>
+                </div>
+            <div class="info">
+                <nav class="nav">
+                    <a href="#" class="nav__link active-link">HOME</a>
+                    <a href="#" class="nav__link">ABOUT US</a>
+                    <a href="#" class="nav__link">PRICING</a>
+                    <a href="#" class="nav__link">CONTACT US</a>
+                </nav>
+                <button class="btn">GET STARTED</button>
+            </div>
+            <div class="hamburger hamburger--squeeze">
+                <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+                </div>
+            </div>
+            </div>
+            <div class="header__info">
+                <h2 class="header__title">Welcome to Wapik</h2>
+                <p class="header__text">Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</p>
+                <a href="#" class="header__link">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main__container">
+            <h2 class="main__main-title">Best of our features</h2>
+            <div class="main__line"></div>
+            <p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+            <div class="main__info">
+                <div class="main__item">
+                    <i class="main__icon icon-ionic"></i>
+                    <h3 class="main__title">Ionicons</h3>
+                    <p class="main__text">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem.</p>
+                </div>
+                <div class="main__item ">
+                    <i class="main__icon icon-design"></i>
+                    <h3 class="main__title">Creative Design</h3>
+                    <p class="main__text">Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                </div>
+                <div class="main__item">
+                    <i class="main__icon icon-photoshop"></i>
+                    <h3 class="main__title">Photoshop and Sketch</h3>
+                    <p class="main__text">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                </div>
+            </div>
+            <div class="main__line line1"></div> 
+            <div class="main__line line2"></div>    
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                <div class="footer__item">
+                    <div class="footer__article">
+                        <i class="footer__icon icon-cross"></i>
+                        <h3 class="footer__title">Cross Browser Compatibility</h3>
+                    </div>
+                    <p class="footer__text">Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__article">
+                        <i class="footer__icon icon-creative"></i>
+                        <h3 class="footer__title">Creative Idea</h3>
+                    </div>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.</p>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__article">
+                        <i class="footer__icon icon-pixel"></i>
+                        <h3 class="footer__title">Pixel Perfect</h3>
+                    </div>
+                    <p class="footer__text">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__article">
+                        <i class="footer__icon icon-free"></i>
+                        <h3 class="footer__title">Free Forever and Ever</h3>
+                    </div>
+                    <p class="footer__text">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        // Look for .hamburger
+        var hamburger = document.querySelector(".hamburger");
+        var nav = document.querySelector(".nav");
+        // On click
+        hamburger.addEventListener("click", function() {
+          // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+        nav.classList.toggle("is-active");
+
+          // Do something else, like open/close menu
+        });
+    </script>
+</body>
+</html>
